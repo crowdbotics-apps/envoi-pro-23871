@@ -47,9 +47,9 @@ urlpatterns = [
     path("home/", include("home.urls")),
 ]
 
-admin.site.site_header = "Envoi_PRO"
-admin.site.site_title = "Envoi_PRO Admin Portal"
-admin.site.index_title = "Envoi_PRO Admin"
+admin.site.site_header = "Envoi_TASK"
+admin.site.site_title = "Envoi_TASK Admin Portal"
+admin.site.index_title = "Envoi_TASK Admin"
 
 # swagger
 api_info = openapi.Info(
